@@ -1,20 +1,11 @@
-# HAB4.0
-High Altitude Weather Balloon (HAB) 4.0
+# PayloadCode
+# Folders:
+ArduinoExamples - Example code for Arduino sensors, useful in the event of a system error investigation
+HABIV_Arduino - Code for Arduino to use during flight, sends sensor data to Pi
+PiExamples - Example code for Pi modules, useful in the event of a system error investigation
 
-The HAB project is an annual project run by WPI students, where each year they make a payload to be flown attached to a helium balloon and monitor the data collected from it in real time. I worked on the payload code, working to interface with an array of sensors using an Arduino and Raspberry Pi.
-
-Main features of the payload code include:
-1. Autonomous flight termination (programmable flight boundary)
-2. Transmitting sensor data and images during flight via radio (credit to my colleague Nicholas Chantre for implementing image transmission)
-3. Neat organization of sensor data into Excel compatible files
-4. Transmission of images during flight 
-
-The sensors and modules onboard include:
-1. GPS
-2. Pressure/altitude sensor
-3. Temperature sensor
-4. Carbon Dioxide Sensor
-5. Methane Sensor
-6. Ozone Sensor
-7. UV Sensor
-8. Camera
+# Files:
+HABIV-Pi - Code for Raspberry Pi to use during flight, sends Arduino sensor data to base station and handles ETS/GPS functionality
+HABIVGPSData - GPS data log generated from running HABIV-Pi (WARNING: overwritten each run!)
+HABIVRadioData - Radio transmission log generated from running HABIV-Pi (WARNING: overwritten each run!)
+HABIVSensorData - Arduino sensor data log generated from running HABIV-Pi (WARNING: overwritten each run!)
