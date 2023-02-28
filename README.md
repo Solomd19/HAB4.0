@@ -1,4 +1,4 @@
-HAB4.0Payload
+# HAB4.0Payload
 
 This project is run annually by WPI students, each year's team making a payload to be flown attached to a helium balloon and base station to receive data from it during flight. My main task on the team was to develop the code for the payload, which consists of an Arduino, Raspberry Pi, and various sensors and modules.
 
@@ -16,4 +16,4 @@ Sensors and Modules:
 5. Ozone Sensor (I2C) - https://www.dfrobot.com/product-2005.html
 6. UV Sensor (I2C) - https://www.sparkfun.com/products/15089
 7. GPS (USB) - https://www.yic.com.tw/en/products-en/gps-gnss-antenna-modules/
-8. Pi Camera - 
+8. Pi Camera - https://www.raspberrypi.com/products/camera-module-v2/
