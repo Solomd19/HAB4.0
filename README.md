@@ -1,6 +1,6 @@
 # HAB4.0Payload
 
-This project is run annually by WPI students, each year's team making a payload to be flown attached to a helium balloon and base station to receive data from it during flight. My main task on the team was to develop the code for the payload, which consists of an Arduino, Raspberry Pi, and various sensors and modules.
+This project is run annually by WPI students, each year's team making a payload to be flown attached to a helium balloon and base station to receive data from it during flight. The main purpose of this project is to monitor the presence of greenhouse gases, the ozone layer, and intensity of UV light, but also to safely retrieve the payload once the helium balloon pops mid-flight. My main task on the team was to develop the code for the payload, which consists of an Arduino, Raspberry Pi, and various sensors and modules.
 
 Main Functionality:
 1. Autonomous flight termination (programmable GPS boundary)
