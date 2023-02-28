@@ -5,10 +5,11 @@ The HAB project is an annual project run by WPI students, where each year they m
 
 Main features of the payload code include:
 1. Autonomous flight termination (programmable flight boundary)
-2. Transmitting sensor data during flight via radio in real time
+2. Transmitting sensor data and images during flight via radio (credit to my colleague Nicholas Chantre for implementing image transmission)
 3. Neat organization of sensor data into Excel compatible files
+4. Transmission of images during flight 
 
-The sensors onboard include:
+The sensors and modules onboard include:
 1. GPS
 2. Pressure/altitude sensor
 3. Temperature sensor
@@ -16,3 +17,4 @@ The sensors onboard include:
 5. Methane Sensor
 6. Ozone Sensor
 7. UV Sensor
+8. Camera
